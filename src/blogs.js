@@ -13,7 +13,7 @@ const BlogSection = () => {
         <div className="blog">
           <img src={blog1Image} alt="Blog 1" />
           <p>
-          "Fueling creativity with my computer and a comforting cup of coffee. Join me as we explore the digital realm and unlock the endless possibilities it holds, one sip and click at a time."
+          "Fueling creativity with my computer and a comforting cup of coffee, I embark on a journey into the boundless depths of the digital realm. Together, let's uncover the endless possibilities that await, one sip and click at a time. Join me in this adventure as we navigate through innovation and inspiration, forging new paths and embracing the ever-evolving landscape of technology."
           </p>
         </div>
         <div className="blog">

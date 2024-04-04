@@ -1,7 +1,7 @@
 // Introduction.js
 
 import React from 'react';
-import avatarimage from './Screenshot 2024-04-02 201422.png';
+import avatarimage from './Screenshot 2024-04-04 200148.png';
 
 const Introduction = () => {
   return (
