@@ -1,4 +1,4 @@
-.App {
+App {
   font-family: Arial, sans-serif;
   font: 300;
 }
@@ -237,85 +237,20 @@ a {
 a:hover {
   text-decoration: underline; /* Optional: Add underline on hover */
 }
-
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 600px) {
   .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px; 
+    flex-direction: row; /* Change back to row layout for larger screens */
+    justify-content: space-between; /* Adjust alignment for larger screens */
+    padding: 10px 20px; /* Adjusted padding for larger screens */
   }
 
-  .left-links, .right-logo {
-    display: block;
+  .image-grid {
+    grid-template-columns: repeat(2, 1fr); /* Reset grid columns for larger screens */
   }
 
-  .content, .project-row, .blog {
-    padding: 10px; 
-  }
-
-  .introduction {
-    padding: 10px; 
-  }
-
-  .introduction .introduction-text {
-    padding: 0; 
-  }
-
-  .introduction .avatar img {
-    max-width: 100%; 
-    padding: 0; 
-  }
-
-  .project-section {
-    margin-top: 20px;
-  }
-
-  .project-row {
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .project-details {
-    padding-left: 0;
-    padding-top: 10px;
-  }
-
-  .project-details h3 {
-    margin-bottom: 10px;
-  }
-
-  .technologies {
-    margin-top: 10px;
-    justify-content: center; /* Center-align technologies */
-  }
-
-  .technology {
-    margin-right: 5px;
-    margin-bottom: 5px;
-  }
-
-  .project-image img {
-    border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-
-  .newsletter-section {
-    padding: 20px 10px; /* Adjust padding for newsletter section */
-  }
-
-  .newsletter-form input {
-    width: 100%; /* Make input fields full width */
-    margin: 10px 0; /* Adjust margin for input fields */
-  }
-
-  .newsletter-form button {
-    width: 100%; /* Make button full width */
-    margin-top: 10px; /* Adjust margin for button */
-  }
-
-  .footer {
-    margin-top: 20px; /* Add margin to footer */
-  }
+  .blog {
+      .blog {
+          width: calc(50% - 20px); /* Adjusted width for two columns with spacing */
+        }
+}
 }

@@ -16,7 +16,7 @@ const Introduction = () => {
       </div>
       <div className="avatar">
         <img src={avatarimage} alt="Avatar" />
-      </div>g
+      </div>
     </div>
   );
 }
